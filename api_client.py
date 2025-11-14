@@ -39,8 +39,8 @@ def send_signed_post(endpoint: str, body: dict):
         "clientType": "WEB"
     }
 
-    print("🔍 URL:", url)
-    print("📦 Body:", json.dumps(body, indent=2))
+    # print("URL:", url)
+    # print("Body:", json.dumps(body, indent=2))
 
     resp = requests.post(url, headers=headers, data=json.dumps(body))
     try:
