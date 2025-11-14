@@ -7,7 +7,6 @@ from utils.payload_normalizer import *
 from box import Box
 
 class C2CAdsService:
-    """Domain service cho quảng cáo C2C"""
     def __init__(self, client: BinanceClient):
         self.client = client
 
