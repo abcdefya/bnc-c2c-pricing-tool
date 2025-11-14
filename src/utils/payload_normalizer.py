@@ -13,14 +13,13 @@ def normalize_payload(
     else:
         data = dict(payload)
 
-    # --- 2️⃣ Loại bỏ các field rỗng ---
     if drop_empty:
         def clean_dict(d: Dict[str, Any]) -> Dict[str, Any]:
             clean = {}
             for k, v in d.items():
                 if isinstance(v, dict):
                     nested = clean_dict(v)
-                    if nested:  # chỉ giữ nếu dict con không rỗng
+                    if nested:  
                         clean[k] = nested
                 elif v not in [None, "", []]:
                     clean[k] = v
