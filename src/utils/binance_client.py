@@ -52,7 +52,6 @@ class BinanceClient:
 
     def request(self, method: str, path: str, data: Optional[Dict[str, Any]] = None,
                 params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        """Tổng quát hoá mọi request signed tới SAPI"""
         if params is None:
             params = {}
         params["timestamp"] = self._timestamp()
