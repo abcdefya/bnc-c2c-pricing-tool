@@ -2,3 +2,4 @@ requests
 websocket-client
 python-dotenv
 ipykernel
+python-box
