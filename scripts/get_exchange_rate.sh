@@ -1,0 +1,29 @@
+curl 'https://c2c-admin.binance.com/bapi/c2c/v1/private/c2c/merchant/get-exchange-rate-list' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'bnc-location: VN' \
+  -H 'bnc-time-zone: Asia/Bangkok' \
+  -H 'bnc-uuid: 638d525d-5d83-4d29-a123-bc1475fcc1ab' \
+  -H 'c2ctype: c2c_merchant' \
+  -H 'clienttype: web' \
+  -H 'content-type: application/json' \
+  -b 'theme=dark; bnc-uuid=638d525d-5d83-4d29-a123-bc1475fcc1ab; BNC_FV_KEY=3311416d97bca765b06aebf88b47a69e7755022c; BNC_FV_KEY_T=101-bA4KTNaWTb1vGzi4Tt68h423vUT5pntrvLD6wG%2FAsFnqm4V8%2BjfvA4KtARA7YD%2BR2UOZqTcTOVFcSlXMzPhc6A%3D%3D-9yAUXfvv5dnZLf6cw%2F%2FPhA%3D%3D-76; BNC_FV_KEY_EXPIRE=1763245648949; lang=en; se_sd=glaBQRwsXRbBx4IMGBRRgZZFgFhVbETV1MANYV0RFJWUQBlNWVgK1; se_gd=hUGUABVFXARUhMCFTCxtgZZExABJWBTV1IXNYV0RFJWUQAFNWVIW1; se_gsd=dDYgBT90JTA0NyQ7NyUhCjYiBgBbAAdbVF5EUVBSVVJQHVNT1; r20t=web.8A809D877A3041229C00E978384188FC; r30t=1; cr00=A8441ADB8FB16B3485704D70E7DE4D3C; d1og=web.1118691114.DE9ABB9028C8953EB105659F646BBA85; r2o1=web.1118691114.8D2BB14B96E8923197B9CDAE1D0690AC; f30l=web.1118691114.7AF89C4DF900AA6A0D1C7345B1F5AF99; currentAccount=; logined=y; BNC-Location=VN; fiat-prefer-currency=VND; p20t=web.1118691114.823AE5F019916743ABBE4F8E8E972A33; bu_s=chat_web; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221118691114%22%2C%22first_id%22%3A%2219a8857d3fe1272-0472b0d8e14edf4-26061b51-2073600-19a8857d3ff23e6%22%2C%22props%22%3A%7B%22%24latest_utm_source%22%3A%22chat_web%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTlhODg1N2QzZmUxMjcyLTA0NzJiMGQ4ZTE0ZWRmNC0yNjA2MWI1MS0yMDczNjAwLTE5YTg4NTdkM2ZmMjNlNiIsIiRpZGVudGl0eV9sb2dpbl9pZCI6IjExMTg2OTExMTQifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%221118691114%22%7D%7D; _h_desk_key=1aad04ec183341ff8afc29d01cdede28' \
+  -H 'csrftoken: 788c1388fdde65bf9ac11cee92f720db' \
+  -H 'device-info: eyJzY3JlZW5fcmVzb2x1dGlvbiI6IjE5MjAsMTA4MCIsImF2YWlsYWJsZV9zY3JlZW5fcmVzb2x1dGlvbiI6IjE5MjAsMTA0MCIsInN5c3RlbV92ZXJzaW9uIjoiV2luZG93cyAxMCIsImJyYW5kX21vZGVsIjoidW5rbm93biIsInN5c3RlbV9sYW5nIjoiZW4tVVMiLCJ0aW1lem9uZSI6IkdNVCswNzowMCIsInRpbWV6b25lT2Zmc2V0IjotNDIwLCJ1c2VyX2FnZW50IjoiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzE0Mi4wLjAuMCBTYWZhcmkvNTM3LjM2IiwibGlzdF9wbHVnaW4iOiJNaWNyb3NvZnQgRWRnZSBQREYgVmlld2VyLFRKalpNR3FkLENocm9taXVtIFBvcnRhYmxlIERvY3VtZW50IEZvcm1hdCAsQ2hyb21pdW0gUERGIFZpZXdlcixXZWJLaXQgYnVpbHQtaW4gUERGLHRhMDVGQ28sUERGIFZpZXdlciIsImNhbnZhc19jb2RlIjoiYzFmN2IyNTAiLCJ3ZWJnbF92ZW5kb3IiOiJHb29nbGUgSW5jLiAoTlZJRElBKSIsIndlYmdsX3JlbmRlcmVyIjoiQU5HTEUgKE5WSURJQSwgTlZJRElBIEdlRm9yY2UgUlRYIDQwNjAgKDB4MDAwMDI4ODIpIERpcmVjdDNEMTEgdnNfNV8wIHBzXzVfMCwgRDNEMTEpIiwiYXVkaW8iOiIxMjMuNTE4NzczMTQ1Mjc1MTkiLCJwbGF0Zm9ybSI6IldpbjMyIiwid2ViX3RpbWV6b25lIjoiQXNpYS9CYW5na29rIiwiZGV2aWNlX25hbWUiOiJDaHJvbWUgVjE0Mi4wLjAuMCAoV2luZG93cykiLCJmaW5nZXJwcmludCI6IjM1N2JlZWNiYjIxNGY4ZmY5MzM4OTE2Mjg3OGI5ZWQ5IiwiZGV2aWNlX2lkIjoiIiwicmVsYXRlZF9kZXZpY2VfaWRzIjoiIn0=' \
+  -H 'fvideo-id: 3311416d97bca765b06aebf88b47a69e7755022c' \
+  -H 'fvideo-token: Bft8n6ehrY/IUZzxfxSP2Otk8XorNGBag9OrWcrpu383yddBJWvpblBYNyc3gFFYh0DB8dQNt3c8PpSTMydLjeLXjLbgwehZ8pwtcOKmZ9eVcxWz7nyPqHyJnvUCIOvb8XF0RwshHJ4zy09U2Tl2uIkJ7m6Y6W3W2eP9JjXc9y1D5h8yCkjAWprT9yW0qMr0E=39' \
+  -H 'lang: en' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://c2c-admin.binance.com/en/advert/online/profession' \
+  -H 'sec-ch-ua: "Chromium";v="142", "Brave";v="142", "Not_A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36' \
+  -H 'x-trace-id: 064523a7-f138-4559-a50b-44abda7eaddb' \
+  -H 'x-ui-request-trace: 064523a7-f138-4559-a50b-44abda7eaddb' \
+  --compressed \
+  | jq '.' > exchange_rate_list.json
