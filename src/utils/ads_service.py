@@ -1,9 +1,9 @@
 from typing import Dict, Any, Optional
-from binance_client import BinanceClient
+# inside ads_service.py
+from src.utils.binance_client import BinanceClient
 from copy import deepcopy
-from binance_client import BinanceClient
 from configs.sapi_configs import UPDATE_AD_PARAMS
-from utils.payload_normalizer import *
+from src.utils.payload_normalizer import *
 from box import Box
 
 class C2CAdsService:
